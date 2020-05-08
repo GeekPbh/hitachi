@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>修改资料</title>
+    <script>
+         var html5Tags=['header' ,'footer','article','nav' ,'section','aside']
+         for(var i=0;i<html5Tags.length;i++){
+             document.createElement(html5Tags[i]);
+         }
+     </script>
+     <!--[if it IE 9]>
+     <style type="text/css">
+        article,aside,dialog,footer,header,section,footer,nav,figure,menu{
+            display:block
+        }
+     </style>
+     <![endif]-->
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link rel="stylesheet" type="text/css" href="css/datamodification.css">
+</head>
+<body>
+    <header>
+        <section class="headerin clearfix">
+            <a href="" class="logo"></a>
+            <nav>
+                <ul class="navul clearfix">
+                    <li><a href="index.html" class="curr">首页</a></li>
+                    <li><a href="introduce.html">关于我们</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="product.html">产品中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+                <div class="loginbox">
+                    <div class="up">
+                        <span class="iconperson"></span>
+                    </div>
+                    <div class="down">
+                        <a href="login.html" class="btnLogin">立即登录</a>没有账号？
+                        <a href="registered.html" class="linkReg">立即注册</a><br />
+                        <a href="buycar.html">我的购物车</a><br />
+                        <a href="confirm_information.html">我的订单</a><br />
+                        <div>
+                            <input type="text" class="inputText"><input type="button" class="inputBtn">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <section class="main pt10">
+        <div class="mulu">
+            当前位置：<a href="index.html">首页</a>><a href="membershipcenter.html">会员中心</a>><a href="#">修改资料</a>
+        </div>
+        <div class="pageContent">
+            <table class="lefttable">
+                <tbody>
+                    <tr class="bigTr">
+                        <td>
+                            <div class="avatar">
+                            </div>
+                            <p>Adam King</p>
+                            <p class="samll">会员等级: 160</p>
+                        </td>
+                    </tr>
+                    <tr class="smallTr curr">
+                        <td class="nowcurr"><img src="img/会员资料.png" alt="">会员资料</td>
+                    </tr>
+                    <tr class="smallTr">
+                        <td><img src="img/购物车.png" alt="">购物车&nbsp&nbsp&nbsp&nbsp</td>
+                    </tr>
+                    <tr class="smallTr curr">
+                        <td><img src="img/购买记录.png" alt="">购买记录</td>
+                    </tr>
+                    <tr class="smallTr">
+                        <td><img src="img/修改密码.png" alt="">修改密码</td>
+                    </tr>
+                    <tr class="smallTr curr">
+                        <td><img src="img/修改资料.png" alt="">修改资料</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pageContentRight">
+                <div class="pcrl">
+                    <div class="pcrl_wz1">修改资料</div>
+                    <div class="pcrl_wz2">基本资料修改</div>
+                    <ul>
+                        <li class="fd">登录账号：</li>
+                        <li>134*****2701</li>
+                        <li class="fd">会员昵称：</li>
+                        <li>Adam King<img style="position: relative;left: 69px;top: -2px;" src="img/xg.png"></li>
+                        <li class="fd">真实姓名：</li>
+                        <li>王亚当<img style="position: relative;left: 100px;top: -2px;" src="img/xg.png"></li>
+                        <li class="fd">性别：</li>
+                        <li>男</li>
+                        <li class="fd">邮箱地址：</li>
+                        <li>ERICcyt1992@163.com</li>
+                        <li class="fd">手机号码：</li>
+                        <li>
+                            <select class="map">
+                                <option value="中国大陆+86">中国大陆+86</option>
+                                <option value="俄罗斯">俄罗斯</option>
+                                <option value="加拿大">加拿大</option>
+                                <option value="美国">美国</option>
+                            </select>
+                            <div class="mamber"><span style="position: relative;top: -4px;left: 8px;">+86</span></div>
+                        </li>
+                        <li class="fd">&nbsp;</li>
+                        <li>
+                            <input class="phone" value="123456789">
+                        </li>
+                        <li class="fd">所在地区：</li>
+                        <li>
+                            <select class="map1">
+                                <option value="中国大陆+86">广东省</option>
+                                <option value="俄罗斯">山东省</option>
+                                <option value="加拿大">辽宁省</option>
+                                <option value="美国">河南省</option>
+                            </select>
+                            <select class="map1">
+                                <option value="中国大陆+86">深圳市</option>
+                                <option value="俄罗斯">韶关市</option>
+                                <option value="加拿大">茂名市</option>
+                                <option value="美国">汕头市</option>
+                            </select>
+                            <select class="map1">
+                                <option value="中国大陆+86">罗湖区</option>
+                                <option value="俄罗斯">福田区</option>
+                                <option value="加拿大">宝安区</option>
+                                <option value="美国">盐田区</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pcrr">
+                    <span>自我描述：</span>
+                    <div style="width: 400px;height: 150px;border: 1px solid black;">&nbsp;&nbsp;颜值爆表，帅得不行......</div>
+                </div>
+                <div class="jqdt">
+                    收货地址编辑
+                </div>
+                <div class="curr" style="font-weight: bold;">已有的两项收货地址</div>
+                <table class="product">
+                    <tr class="top">
+                        <td style="padding-left: 10px;">序号</td>
+                        <td>地址</td>
+                        <td></td>
+                        <td></td>
+                        <td>收货人 </td>
+                        <td>电话/手机</td>
+                        <td>邮编</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr style="height: 53px;">
+                        <td>1</td>
+                        <td>广州市</td>
+                        <td>白云区</td>
+                        <td>松北球场直街33号 广州大学纺织服装学院</td>
+                        <td>Adam King</td>
+                        <td>1234567890</td>
+                        <td>518000</td>
+                        <td>修改 | 删除</td>
+                    </tr>
+                    <tr style="height: 53px; border-bottom: 1px solid #cccccc;;">
+                        <td>2</td>
+                        <td>深圳市</td>
+                        <td>宝安50区</td>
+                        <td>翻身路登科花园7栋701</td>
+                        <td>Adam King</td>
+                        <td>1234567890</td>
+                        <td>518000</td>
+                        <td>修改 | 删除</td>
+                        <td style="color: blue;">设为默认</td>
+                    </tr>
+                </table>
+                <div class="xinz">+  添加新地址</div>
+                <div class="pcrb">
+                    <div style="padding-top: 52px;"><span class="curr">新增收货地址 &nbsp;&nbsp;</span>电话号码、手机号选填一项，其余均为必填项</div>
+                    <div class="area">
+                        <ul class="areaul">
+                            <li class="fd">所在地区<span class="curr">*</span></li>
+                            <li>
+                                <select class="map" style="width: 108px;">
+                                    <option value="中国大陆+86">中国大陆</option>
+                                    <option value="俄罗斯">俄罗斯</option>
+                                    <option value="加拿大">加拿大</option>
+                                    <option value="美国">美国</option>
+                                </select>
+                                <select class="map" style="width:264.5px; color:#cccccc">
+                                    <option value="中国大陆+86">请选择省市区</option>
+                                    <option value="俄罗斯">俄罗斯</option>
+                                    <option value="加拿大">加拿大</option>
+                                    <option value="美国">美国</option>
+                                </select>
+                            </li></br>
+                            <li class="fd">详细地址<span class="curr">*</span></li>
+                            <li>
+                                <textarea cols="50" rows="10" style="color:#999898;border: 1px solid #cccccc;">建议您如实填写收获地址。例如街道名称，门牌号码，楼层和房间等信息。 </textarea>
+                            </li></br>
+                            <li class="fd">邮政编码</li>
+                            <li>
+                                <input style="width: 375px;height: 34px;border: 1px solid #cccccc;">
+                            </li></br>
+                            <li class="fd">收货人姓名<span class="curr">*</span></li>
+                            <li><input style="width: 375px;height: 34px;border: 1px solid #cccccc;">
+                            </li></br>
+                            <li class="fd">手机号码</li>
+                            <li>
+                                <select class="map" style="width: 108px;">
+                                    <option value="中国大陆+86">中国大陆+86</option>
+                                    <option value="俄罗斯">俄罗斯</option>
+                                    <option value="加拿大">加拿大</option>
+                                    <option value="美国">美国</option>
+                                </select>
+                                <input type="text" value="电话号码、手机号选填一项" style="width: 260px;height: 31px;color:#999898;border: 1px solid #cccccc;">
+                            </li></br>
+                            <li class="fd">电话号码</li>
+                            <li>
+                                <select class="map" style="width: 108px;">
+                                    <option value="中国大陆+86">中国大陆+86</option>
+                                    <option value="俄罗斯">俄罗斯</option>
+                                    <option value="加拿大">加拿大</option>
+                                    <option value="美国">美国</option>
+                                </select>
+                                <input type="text" value="区号" style="width: 80px;height: 31px;color:#999898;border: 1px solid #cccccc;">-
+                                <input type="text" value="电话号码" style="width: 80px;height: 31px;color:#999898;border: 1px solid #cccccc;">-
+                                <input type="text" value="分析" style="width: 80px;height: 31px;color:#999898;border: 1px solid #cccccc;">
+                            </li></br>
+                        </ul>
+                        <div class="buttonn">保存更改</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer>
+        copyright ©2016 hitachi.com all rights reserved 中国日立集团有限公司版权所有 京ICP备012345号-1
+    </footer>
+     <script type="text/javascript" src="js/index.js"></script>
+ </body>
+ </html>

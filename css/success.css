@@ -1,0 +1,49 @@
+.alert{
+    position: absolute;
+    width: 717px;
+    height: 252px;
+    background-color: white;
+    z-index: 3;
+    left: 20%;
+}
+.alert>.content{
+    width: 350px;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.main>.alert>.button{
+    width: 350px;
+    margin-left: 300px;
+}
+.main>.alert>.button>.left,
+.main>.alert>.button>.right{
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.main>.alert>.button>.left{
+    margin-right: 15px;
+    float: left;
+    color: white;
+    background-color: red;
+}
+.main>.alert>.button>.right{
+    margin-left: 15px;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+.main{
+    background-color: #f0f0f0;
+}
+body{
+    background-color:#e9e9e9
+}
+textarea{
+    background-color: #f0f0f0;
+}

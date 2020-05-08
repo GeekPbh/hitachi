@@ -1,0 +1,177 @@
+a:hover{
+    color: #f33;
+}
+body{
+    background-color: #f0f0f0;
+}
+/*头部样式*/
+header{
+    height: 77px;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.headerin{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.headerin>.logo{
+    background:url(../img/logo1.png) no-repeat;
+    width: 198px;
+    height: 77px;
+    float: left;
+}
+.headerin>nav{
+    float: right;
+    width: 680px;
+}
+
+.headerin>nav>ul{
+    width: 606px;
+    float: left;
+    overflow: hidden;
+}
+.headerin>nav>ul>li{
+    float: left;
+   
+}
+.headerin>nav>ul>li>a{
+    display: block;
+    width: 121px;
+    text-align: center;
+    font: 16px/77px microsoft yahei;
+    
+}
+.headerin>nav>ul>li>a.curr{
+    color: red;
+}
+.headerin>nav>.loginbox{
+    position: relative;
+    width: 74px;
+    width: 73px;
+    float: right;
+    border-top: 4px solid #fff;
+}
+.headerin>nav>.loginbox>.up{
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    background: url(../img/iconArrB.png) no-repeat;
+    background-position:  right center;
+}
+.headerin>nav>.loginbox>.up>.iconperson{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    background: url(../img/iconPerson.png) no-repeat;
+    left: 12px;
+    top: 20px;
+}
+.headerin>nav>.loginbox>.down{
+    position: absolute;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fff;
+    top: 72px;
+    left: -101px;
+    border-top:  none;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 24px 12px;
+    display:none;
+}
+.headerin>nav>.loginbox:hover>.down{
+    display:block;
+}
+.headerin>nav>.loginbox>.down>.btnLogin{
+    display: block;
+    font: 14px/35px Microsoft Yahei;
+    text-align: center;
+    background-color: #f33;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.headerin>nav>.loginbox>.down .inputText{
+    width: 124px;
+    height: 24px;
+    border: 1px solid #999;
+    border-right: none;
+}
+.headerin>nav>.loginbox>.down .inputBtn{
+    box-sizing:content-box;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #999;
+    border-left: none;
+    cursor: pointer;
+    background: #fff url(../img/btnSrh.png) no-repeat center ;
+}
+.submenu {
+    font: 11px/20px Microsoft Yahei;
+    width: 1200px;
+    margin: 10px auto 10px;
+}
+.main{
+    height: 1000px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 1200px;
+    margin: 5px auto 40px;
+    background-color: #fff;
+}
+.main>.lefttable{
+    margin-top: 30px;
+    float: left;
+    width: 280px;
+    background-color: #757575;
+}
+.main>.lefttable .bigTr{
+    height: 234px;
+}
+.main>.lefttable .bigTr .avatar{
+    margin: 0px auto 10px;
+    border-radius: 50%;
+    background-size: 150% auto;
+    border: 3px solid #ff9999;
+    box-shadow: #313131 10px 10px 30px 5px ;
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/头像.png);
+}
+.main>.lefttable tr{
+    text-align: center;
+    color: #cccccc;
+}
+.main>.lefttable .bigTr p{
+    color: white;
+    font-size: 18px;
+}
+.main>.lefttable .bigTr .small{
+    font-size: 14px;
+}
+.main>.lefttable .smallTr{
+    height: 45px;
+    font-size: 14px;
+}
+.main>.lefttable .curr{
+    background-color: #666666;
+}
+.main>.lefttable img{
+    margin-right: 10px;
+}
+.main>.lefttable .now{
+    color: white;
+}
+/*页脚*/
+footer{
+    text-align: center;
+    line-height: 70px;
+    background-color: #f33;
+    color: #fff;
+}

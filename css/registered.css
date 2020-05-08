@@ -1,0 +1,121 @@
+a:hover{
+    color: #f33;
+}
+body{
+    background-color: #f0f0f0;
+}
+/*头部样式*/
+header{
+    height: 77px;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.headerin{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.headerin>.logo{
+    background:url(../img/logo1.png) no-repeat;
+    width: 198px;
+    height: 77px;
+    float: left;
+}
+
+
+
+.background{
+    background: url(../img/阳光下的草地.png);
+    height: 710px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto 40px;
+    background-color: #fff;
+    
+}
+.bgc{
+    left: 15.5%;
+    position: absolute;
+    background-color: #fff;
+    width: 826px;
+    height: 636px;
+    margin: 30px auto;
+    opacity: 0.8;
+}
+.main{
+    width: 826px;
+    height: 636px;
+    margin: 30px auto;
+}
+.main>.title{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main>.qipao{
+    right: 265px;
+    top: 125px;
+    width: 289px;
+    height: 61px;
+    background: url(../img/气泡.png);
+    position: absolute;
+}
+.main>.qipao>.content{
+    font-size: 12px;
+    width: 252px;
+    padding-left: 26px;
+    line-height: 1.7;
+}
+.main>.title>span{
+    font-size: 18px;
+}
+.main>.inputBox{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 75px;
+    width: 450px;
+    height: 500px;
+}
+.main>.inputBox>.left{
+    float: left;
+    width: 70px;
+    text-align: right;
+    font-size: 14px;
+}
+.main>.inputBox>.left>li{
+    margin-top: 17px;
+}
+.main>.inputBox span{
+    color:red;
+}
+.main>.inputBox>.right{
+    overflow: hidden;
+}
+.main>.inputBox>.right>li{
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.main>.inputBox>.right>li>input{
+    width: 300px;
+    height: 25px;
+    background-color: #fff;
+}
+.main>.inputBox>.right>li>.button{
+    width: 100px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.main>.inputBox>.right>.area>select{
+    height: 30px;
+    margin-right: 5px;
+    width: 94px;
+}

@@ -1,0 +1,271 @@
+a:hover{
+    color: #f33;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+/*头部样式*/
+header{
+    height: 77px;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.headerin{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.headerin>.logo{
+    background:url(../img/logo1.png) no-repeat;
+    width: 198px;
+    height: 77px;
+    float: left;
+}
+.headerin>nav{
+    float: right;
+    width: 680px;
+}
+
+.headerin>nav>ul{
+    width: 606px;
+    float: left;
+    overflow: hidden;
+}
+.headerin>nav>ul>li{
+    float: left;
+   
+}
+.headerin>nav>ul>li>a{
+    display: block;
+    width: 121px;
+    text-align: center;
+    font: 16px/77px microsoft yahei;
+    
+}
+.headerin>nav>ul>li>a.curr{
+    color: red;
+}
+.headerin>nav>.loginbox{
+    position: relative;
+    width: 74px;
+    width: 73px;
+    float: right;
+    border-top: 4px solid #fff;
+}
+.headerin>nav>.loginbox>.up{
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    background: url(../img/iconArrB.png) no-repeat;
+    background-position:  right center;
+}
+.headerin>nav>.loginbox>.up>.iconperson{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    background: url(../img/iconPerson.png) no-repeat;
+    left: 12px;
+    top: 20px;
+}
+.headerin>nav>.loginbox>.down{
+    position: absolute;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fff;
+    top: 72px;
+    left: -101px;
+    border-top:  none;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 24px 12px;
+    display:none;
+}
+.headerin>nav>.loginbox:hover>.down{
+    display:block;
+}
+.headerin>nav>.loginbox>.down>.btnLogin{
+    display: block;
+    font: 14px/35px Microsoft Yahei;
+    text-align: center;
+    background-color: #f33;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.headerin>nav>.loginbox>.down .inputText{
+    width: 124px;
+    height: 24px;
+    border: 1px solid #999;
+    border-right: none;
+}
+.headerin>nav>.loginbox>.down .inputBtn{
+    box-sizing:content-box;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #999;
+    border-left: none;
+    cursor: pointer;
+    background: #fff url(../img/btnSrh.png) no-repeat center ;
+}
+.submenu {
+    font: 11px/20px Microsoft Yahei;
+    width: 1200px;
+    margin: 10px auto 10px;
+}
+.main{
+    box-sizing: border-box;
+    height: 710px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 1200px;
+    margin: 5px auto 40px;
+    background-color: #fff;
+}
+
+.main>.top{
+    margin-top: 20px;
+    width: 810px;
+    margin-left: 213px
+}
+.main>.top>.content{
+    margin-left: 162px;
+    display: inline-block;
+    width: 48px;
+}
+.main>.top>.content>.text{
+    color: #cccccc;
+    line-height: 18px;
+}
+.main>.top>.content>.curr{
+    color: black;
+}
+.main>.top>.content>.icon{
+    margin: 0 auto;
+    width: 7px;
+    height: 6px;
+    background: url(../img/倒三角.png);
+}
+.main>.progressBar{
+    margin: 0 auto;
+    width: 800px;
+    height: 5px;
+    background-color: #ddd;
+    border-radius: 25px;
+}
+.main>.progressBar>.nowprogress{
+    width: 22.5%;
+    height: 5px;
+    background-color: red;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+.main>.title{
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.main>.product{
+    border-collapse:collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    font-size: 14px;
+}
+.main>.product tr{
+    border-bottom: 1px solid #999;
+}
+.main>.down{
+    width: 1150px;
+    margin: 10px auto;
+}
+.main>.down>.left{
+    overflow: hidden;
+}
+.main>.down>.left>p{
+   
+    font-size: 12px;
+}
+.main>.down>.left>textarea{
+    width: 260px;
+    height: 120px;
+    margin-top: -20px;
+    margin-left: 60px
+}
+.main>.down>.right{
+    margin-right: 20px;
+    margin-top: -120px;
+    float: right;
+}
+.main>.down>.right span{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.main>.down>.right .money{
+    color: red;
+}
+.main>.down>.button{
+    width: 300px;
+    margin: 50px auto;
+}
+.main>.down>.button>.left{
+    background-color: red;
+    float: left;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 15px;
+}
+.main>.down>.button>.right{
+    margin-left: 15px;
+    background-color: #666666;
+    width: 140px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+}
+.num-button {
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    color: gray;
+    line-height: 20px;
+    font-size: 20px;
+    background: #DDDDDD;
+    padding: 2px 5px;
+    border: none;
+}
+.counter{
+    height: 30px;
+    display: inline-flex;
+}
+.num {
+    color: #666666;
+    margin: 0;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    border-top: 0.5px solid #ccc;
+    border-bottom: 0.5px solid #ccc;
+}
+
+/*页脚*/
+footer{
+    text-align: center;
+    line-height: 70px;
+    background-color: #f33;
+    color: #fff;
+}

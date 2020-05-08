@@ -1,0 +1,177 @@
+header{
+    height: 77px;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.headerin{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.headerin>.logo{
+    background:url(../img/logo1.png) no-repeat;
+    width: 198px;
+    height: 77px;
+    float: left;
+}
+.headerin>nav{
+    float: right;
+    width: 680px;
+}
+
+.headerin>nav>ul{
+    width: 606px;
+    float: left;
+    overflow: hidden;
+}
+.headerin>nav>ul>li{
+    float: left;
+   
+}
+.headerin>nav>ul>li>a{
+    display: block;
+    width: 121px;
+    text-align: center;
+    font: 16px/77px microsoft yahei;
+    
+}
+.headerin>nav>ul>li>a.curr{
+    color: red;
+}
+.headerin>nav>.loginbox{
+    position: relative;
+    width: 74px;
+    width: 73px;
+    float: right;
+    border-top: 4px solid #fff;
+}
+.headerin>nav>.loginbox>.up{
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    background: url(../img/iconArrB.png) no-repeat;
+    background-position:  right center;
+}
+.headerin>nav>.loginbox>.up>.iconperson{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    background: url(../img/iconPerson.png) no-repeat;
+    left: 12px;
+    top: 20px;
+}
+.headerin>nav>.loginbox>.down{
+    position: absolute;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fff;
+    top: 72px;
+    left: -101px;
+    border-top:  none;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 24px 12px;
+    display:none;
+}
+.headerin>nav>.loginbox:hover>.down{
+    display:block;
+}
+.headerin>nav>.loginbox>.down>.btnLogin{
+    display: block;
+    font: 14px/35px Microsoft Yahei;
+    text-align: center;
+    background-color: #f33;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.headerin>nav>.loginbox>.down .inputText{
+    width: 124px;
+    height: 24px;
+    border: 1px solid #999;
+    border-right: none;
+}
+.headerin>nav>.loginbox>.down .inputBtn{
+    box-sizing:content-box;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #999;
+    border-left: none;
+    cursor: pointer;
+    background: #fff url(../img/btnSrh.png) no-repeat center ;
+}
+/*main区域*/
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main>.mulu{
+    line-height: 32px;
+}
+.main>nav{
+    padding: 0 0 15px;
+}
+.main>nav>a{
+    float: left;
+    width: 90px;
+    height: 35px;
+    font:14px/35px microsoft yahei;
+    text-align: center;
+    color: #333;
+}
+.main>nav>a.curr,.main>nav>a:hover{
+    color: #fff;
+    background-color: #f33;
+}
+.main>.newslist{margin: 0 auto;background-color: #fff;margin-bottom: 50px;}
+.main>.newslist .item{
+    padding:8px 10px 0;
+    margin-left: 50px;
+    /*overflow: hidden;*/
+    float: left;
+    position: relative;
+    display: block;
+    width: 1084px;
+}
+.main>.newslist .item>dt{
+    font:18px/42px microsoft Yahei;
+    text-align: center;
+}
+.main>.newslist .item>dd{
+    display: block;
+}
+.main>.newslist .item>dd.author{
+    color: #999;
+    line-height: 14px;
+    margin: 5px 5px 10px;
+    text-align: center;
+}
+.main>.newslist .item>dd.content{
+    position: relative;
+    padding-top: 18px;
+    overflow: hidden;
+}
+.main>.newslist .item>dd.content>a{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.main>.newslist .item>dd.content>.newdetail{
+    font:14px/25px microsoft Yahei;
+    padding-top: 20px;
+}
+.main>.newslist .item>dd.switch{
+    margin: 50px auto;
+}
+/*页脚*/
+footer{
+    text-align: center;
+    line-height: 82px;
+    background-color: #f33;
+    color: white;
+}

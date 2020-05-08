@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>品牌介绍</title>
+    <script>
+        var html5Tags = ['header', 'footer', 'article', 'nav', 'section', 'aside']
+        for (var i = 0; i < html5Tags.length; i++) {
+            document.createElement(html5Tags[i]);
+        }
+    </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
+</head>
+
+<body>
+    <header>
+        <section class="headerin clearfix">
+            <a href="" class="logo"></a>
+            <nav>
+                <ul class="navul clearfix">
+                    <li><a href="index.html" >首页</a></li>
+                    <li><a href="introduce.html">关于我们</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="product.html"class="curr">产品中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+                <div class="loginbox">
+                    <div class="up">
+                        <span class="iconperson"></span>
+                    </div>
+                    <div class="down">
+                        <a href="login.html" class="btnLogin">立即登录</a>没有账号？
+                        <a href="registered.html" class="linkReg">立即注册</a><br />
+                        <a href="buycar.html">我的购物车</a><br />
+                        <a href="confirm_information.html">我的订单</a><br />
+                        <div>
+                            <input type="text" class="inputText"><input type="button" class="inputBtn">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <section id="slider">
+        <div class="sliderBox">
+            <div id="p1" class="item curr">
+                <img src="img/banner1.jpg" alt="">
+            </div>
+            <div id="p2" class="item">
+                <img src="img/banner2.jpg" alt="">
+            </div>
+            <div id="p3" class="item">
+                <img src="img/banner1.jpg" alt="">
+            </div>
+            <div id="p4" class="item">
+                <img src="img/banner2.jpg" alt="">
+            </div>
+            <div id="p5" class="item">
+                <img src="img/banner1.jpg" alt="">
+            </div>
+        </div>
+        <div class="switcher">
+            <span class="curr">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+        </div>
+    </section>
+    <div class="submenu">
+            <a href="#">当前位置：</a>>
+            <a href="#">首页</a>>
+            <a href="#">品牌介绍</a>>
+            <a href="#">公司简介</a>
+    </div>
+    <section class="main">
+        <aside class="pageLeft">
+            <h2>搜索返回</h2>
+            <div class="selectArea">
+                <div class="item">
+                    <div class="head">类型<span class="iconMore"></span></div>
+                    <div class="body">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#"><span class="iconSquare"></span>选项一</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="iconSquare"></span>选项二</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item itemOpen">
+                    <div class="head">尺寸<span class="iconMore"></span></div>
+                    <div class="body">
+                        <ul class="clearfix">
+                            <li class="curr">
+                                <a href="#"><span class="iconSquare"></span>选项一</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="iconSquare"></span>选项二</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="iconSquare"></span>选项二</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="iconSquare"></span>选项二</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btnClear">清除所有</a>
+        </aside>
+        <aside class="pageRight">
+            <div class="rtop">
+                <div class="sort">
+                    排列方式：<input type="text" value="按从新到旧排序" class="inputText">
+                    <input type="button" class="inputBtn">
+                </div>
+                <form action="">
+                    <div class="searchBox">
+                        <input type="text" class="inputKey">
+                        <input type="button" class="inputSrh" value="搜索">
+                    </div>
+                </form>
+            </div>
+            <div class="rlist">
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button onclick="window.location.href ='product_details.html'">了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist2.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist2.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist2.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+                <div class="rlist_rows">
+                    <div class="imgPart"><img src="img/prolist1.jpg"></div>
+                    <div class="textPart">
+                        <h5>L65-Z2系列</h5>
+                        <div>原装 三星 / LG 真4k屏广视角、广色域 、不拖影，全境属轻薄机身</div>
+                    </div>
+                    <div class="movePart">
+                        <div><button>了解更多参数</button></div>
+                        <img src="img/buyCar.png">
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="page">
+                    第1页共7页
+                    <a href="#">上一页</a><a href="#">1</a><a href="#">2</a><a href="#">3</a>&nbsp;&nbsp;......&nbsp;&nbsp;<a href="#">下一页</a>&nbsp;&nbsp;&nbsp;&nbsp;跳转:
+                    <input type="text" placeholder="请输入页码" class="inputText">
+                    <a href="#">Go</a>
+                </div>
+            </form>
+        </aside>
+
+    </section>
+    <footer>
+        copyright ©2016 hitachi.com all rights reserved 中国日立集团有限公司版权所有 京ICP备012345号-1
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

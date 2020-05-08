@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/buycar.css">
+</head>
+
+<body>
+    <header>
+        <section class="headerin clearfix">
+            <a href="" class="logo"></a>
+            <nav>
+                <ul class="navul clearfix">
+                    <li><a href="index.html" class="curr">首页</a></li>
+                    <li><a href="introduce.html">关于我们</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="product.html">产品中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+                <div class="loginbox">
+                    <div class="up">
+                        <span class="iconperson"></span>
+                    </div>
+                    <div class="down">
+                        <a href="login.html" class="btnLogin">立即登录</a>没有账号？
+                        <a href="registered.html" class="linkReg">立即注册</a><br />
+                        <a href="buycar.html">我的购物车</a><br />
+                        <a href="confirm_information.html">我的订单</a><br />
+                        <div>
+                            <input type="text" class="inputText"><input type="button" class="inputBtn">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <div class="submenu">
+        <a href="#">当前位置：</a>>
+        <a href="#">首页</a>>
+        <a href="#">购物车</a>
+    </div>
+    <section class="main">
+        <table class="lefttable">
+            <tbody>
+                <tr class="bigTr">
+                    <td>
+                        <div class="avatar">
+                        </div>
+                        <p>Adam King</p>
+                        <p class="samll">会员等级: 160</p>
+                    </td>
+                </tr>
+                <tr class="smallTr curr">
+                    <td><img src="img/会员资料.png" alt="">会员资料</td>
+                </tr>
+                <tr class="smallTr">
+                    <td class="nowcurr"><img src="img/购物车.png" alt="">购物车&nbsp&nbsp&nbsp&nbsp</td>
+                </tr>
+                <tr class="smallTr curr">
+                    <td><img src="img/购买记录.png" alt="">购买记录</td>
+                </tr>
+                <tr class="smallTr">
+                    <td><img src="img/修改密码.png" alt="">修改密码</td>
+                </tr>
+                <tr class="smallTr curr">
+                    <td><img src="img/修改资料.png" alt="">修改资料</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="right">
+            <div class="title">
+                购物车
+            </div>
+            <table class="product">
+                <tr class="top">
+                    <td></td>
+                    <td style="padding-left: 10px;">产品信息及参数</td>
+                    <td></td>
+                    <td>单价（元）</td>
+                    <td>优惠</td>
+                    <td style="text-align: center;">数量</td>
+                </tr>
+                <tr style="height: 115px;border-bottom: 1px solid #cccccc;">
+                    <td style="width: 80px;"><img src="img/选中.png" alt="" style="margin-left: 20px;"></td>
+                    <td style="width: 150px;">
+                        <img src="img/产品信息.png" alt="">
+                    </td>
+                    <td style="font-size: 12px;width: 235px;">
+                        <p class="name">65英寸日立电视L65-Z2系列</p>
+                        <p>颜色：银色包边</p>
+                        <p>尺寸:65英寸</p>
+                    </td>
+                    <td class="name">5000.00</td>
+                    <td class="name">0.0</td>
+                    <td style="text-align: center;">
+                        <div class="counter">
+                            <button class="num-button">-</button>
+                            <span class="num">1</span>
+                            <button class="num-button">+</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 115px;border-bottom: 1px solid #cccccc;">
+                    <td style="width: 80px;"><img src="img/未选中.png" alt="" style="margin-left: 20px;"></td>
+                    <td style="width: 150px;">
+                        <img src="img/产品信息.png" alt="">
+                    </td>
+                    <td style="font-size: 12px;width: 235px;">
+                        <p class="name">65英寸日立电视L65-Z2系列</p>
+                        <p>颜色：银色包边</p>
+                        <p>尺寸:65英寸</p>
+                    </td>
+                    <td class="name">5000.00</td>
+                    <td class="name">0.0</td>
+                    <td style="text-align: center;">
+                        <div class="counter">
+                            <button class="num-button">-</button>
+                            <span class="num">1</span>
+                            <button class="num-button">+</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="pay">
+                <tr>
+                    <td><img src="img/全选.png" alt="" style="margin-left: 20px;"></td>
+                    <td></td>
+                    <td style="width: 140px;font-size: 18px;">
+                        合计：<span style="color: red;">￥5000</span><br>
+                        <span style="font-size:14px">不含运费</span>
+                    </td>
+                    <td style="width: 120px;">
+                        <div class="buttom">
+                            <div class="content">
+                                结算（1）
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        copyright ©2016 hitachi.com all rights reserved 中国日立集团有限公司版权所有 京ICP备012345号-1
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
