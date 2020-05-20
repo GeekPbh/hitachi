@@ -152,9 +152,10 @@ header{
     color: #fff;
     font-size: 18px;
 }
-.main>.lefttable .bigTr .samll{
+.main>.lefttable .bigTr .small{
     font-size: 14px;
 }
+
 .main>.lefttable .smallTr{
     height: 45px;
     text-align: center;

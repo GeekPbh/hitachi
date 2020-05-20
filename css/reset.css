@@ -58,4 +58,12 @@ h3 { font-size: 14px; font-weight: bold; }
 .gray:hover { color: #333!important; color: #333; }
 .graylight { color: #999!important; color: #999; }
 /* 定义常用样式 end */
-
+.lefttable .smallTr a:hover{
+    color: #f0f0f0;
+}
+.lefttable .smallTr a{
+    color:#cccccc;
+}
+.lefttable .nowcurr{
+    color: #fff !important;
+}

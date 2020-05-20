@@ -1,6 +1,12 @@
 a:hover{
     color: #f33;
 }
+.main>.lefttable .smallTr a:hover{
+    color: #f0f0f0;
+}
+.main>.lefttable .smallTr a{
+    color:#cccccc;
+}
 body{
     background-color: #f0f0f0;
 }
